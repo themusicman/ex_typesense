@@ -39,7 +39,7 @@ defmodule ExTypesense.MixProject do
       {:ex_doc, "~> 0.29.4", only: [:dev, :test], runtime: false},
       {:credo, "~> 1.7.0", only: [:dev, :test], runtime: false},
       {:req, "~> 0.4 or ~> 1.0"},
-      {:ecto, "~> 3.10.2"},
+      {:ecto, "~> 3.11.0"},
       {:excoveralls, "~> 0.10", only: :test}
     ]
   end
